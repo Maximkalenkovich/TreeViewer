@@ -11,7 +11,7 @@ Tree Viewer - это веб-приложение для отображения �
 
 1. Клонируйте репозиторий на свою локальную машину:
 
-git clone https://github.com/your-username/tree-viewer.git
+git clone git@github.com:Maximkalenkovich/TreeViewer.git
 
 2. Перейдите в каталог проекта:
 
