@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tree Viewer</title>
+
+    <style>
+        .tree {
+            margin-left: 20px;
+        }
+
+        .list-group-item {
+            margin-bottom: 5px;
+            padding-left: 20px;
+            cursor: pointer;
+        }
+
+        .list-group-item:before {
+            content: "+";
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+            border: 1px solid #000;
+            border-radius: 2px;
+            margin-right: 5px;
+        }
+
+        .collapsed:before {
+            content: "-";
+        }
+    </style>
+</head>
+<body>
+<div>
+</div>
+<div id="treeContainer"></div>
+<script src="script.js">
+</script>
+</body>
+</html>
+
+
+
+
